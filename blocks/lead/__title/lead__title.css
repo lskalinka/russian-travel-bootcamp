@@ -8,7 +8,6 @@
 @media screen and (min-width: 1280px){
     .lead__title {
         width: 73%;
-        height: 200px;
         font-size: 96px;
         line-height: 100px;
     }
@@ -17,7 +16,6 @@
 @media screen and (min-width: 1025px) and (max-width: 1279px){
 	.lead__title {
         width: 77%;
-        height: 200px;
         font-size: 96px;
         line-height: 100px;
     }
@@ -26,7 +24,6 @@
 @media screen and (min-width: 768px) and (max-width: 1024px){
 	.lead__title {
         width: 93%;
-        height: 200px;
         font-size: 96px;
         line-height: 100px;
     }
@@ -35,7 +32,6 @@
 @media screen and (max-width: 767px){
 	.lead__title {
         width: 90%;
-        height: 88px;
         font-size: 40px;
         line-height: 44px;
     }

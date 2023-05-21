@@ -8,7 +8,6 @@
 @media screen and (min-width: 1280px){
     .lead__subtitle {
         width: 65%;
-        height: 72px;
         font-size: 30px;
         line-height: 36px;
         margin: 0 auto 8vh;
@@ -18,7 +17,6 @@
 @media screen and (min-width: 1025px) and (max-width: 1279px){
 	.lead__subtitle {
         width: 65%;
-        height: 72px;
         font-size: 30px;
         line-height: 36px;
         margin: 0 auto 8vh;
@@ -28,7 +26,6 @@
 @media screen and (min-width: 768px) and (max-width: 1024px){
 	.lead__subtitle {
         width: 72%;
-        height: 72px;
         font-size: 30px;
         line-height: 36px;
         margin: 0 auto 6vh;
@@ -38,7 +35,6 @@
 @media screen and (max-width: 767px){
 	.lead__subtitle {
         width: 83%;
-        height: 40px;
         font-size: 16px;
         line-height: 20px;
         margin: 0 auto 6vh;
