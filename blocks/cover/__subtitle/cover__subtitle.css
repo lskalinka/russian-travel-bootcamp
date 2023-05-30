@@ -4,9 +4,11 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    z-index: 1;
-    margin: 0 auto 0;
-    padding: -50% 0 0;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 @media screen and (min-width: 1280px){
     .cover__subtitle {

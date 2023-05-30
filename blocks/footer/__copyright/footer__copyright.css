@@ -6,6 +6,8 @@
     text-align: right;
     align-self: end;
     justify-self: end;
+    margin: 0;
+    padding: 0;
 }
 @media screen and (min-width: 320px) and (max-width: 767px){
 	.footer__copyright {

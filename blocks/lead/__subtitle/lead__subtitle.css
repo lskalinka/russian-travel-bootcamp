@@ -3,32 +3,22 @@
     font-weight: 400;
     text-align: center;
     padding: 0;
+    width: 640px;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 auto 64px;
 }
-
-@media screen and (min-width: 1280px){
-    .lead__subtitle {
-        width: 65%;
-        font-size: 30px;
-        line-height: 36px;
-        margin: 0 auto 8vh;
-    }
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1279px){
+@media screen and (min-width: 1024px) and (max-width: 1279px){
 	.lead__subtitle {
         width: 65%;
-        font-size: 30px;
-        line-height: 36px;
-        margin: 0 auto 8vh;
+        margin: 0 auto 56px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
 	.lead__subtitle {
         width: 72%;
-        font-size: 30px;
-        line-height: 36px;
-        margin: 0 auto 6vh;
+        margin: 0 auto 56px;
     }
 }
 
@@ -37,6 +27,6 @@
         width: 83%;
         font-size: 16px;
         line-height: 20px;
-        margin: 0 auto 6vh;
+        margin: 0 auto 40px;
 	}
 }

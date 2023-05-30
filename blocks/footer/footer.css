@@ -3,7 +3,7 @@
         display: grid;
         grid-template-columns: repeat(5, minmax(min-content, max-content)) 9fr;
         grid-template-rows: 1fr;
-        grid-gap: 1%;
+        grid-gap: 18px;
         justify-items: center;
         align-items: center;
     }
@@ -32,5 +32,6 @@
         justify-items: start;
         align-items: start;
         margin: 0 auto 3vh 5%;
+        grid-gap: 0;
 	}
 }

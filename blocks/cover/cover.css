@@ -1,39 +1,39 @@
 .cover {
         padding: 0;
-        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
-}        
-@media screen and (min-width: 1280px){
-    .cover {
+        position: relative;
         width: 92%;
-        height: 85vh;
-        margin: 12vh auto 12vh;
-    }
-}
-
+        max-width: 1280px;
+        height: 100%;
+        margin: 92px auto 92px;
+        box-sizing: content-box;
+        min-height: 740px;
+}        
 @media screen and (min-width: 1024px) and (max-width: 1279px){
 	.cover {
+        min-width: 1024px;
+        min-height: 640px;
         width: 100%;
-        height: 85vh;
-        margin: 12vh auto 12vh;
 	}
 }
 
-@media screen and (min-width: 451px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
 	.cover {
+        min-width: 768px;
+        margin: 90px auto 88px;
+        min-height: 480px;
         width: 100%;
-        height: 85vh;
-        margin: 12vh auto 12vh;
 	}
 }
 
-@media screen and (min-width: 320px) and (max-width: 450px){
+@media screen and (min-width: 320px) and (max-width: 767px){
 	.cover {
+        min-width: 320px;
+        margin: 66px auto 64px;
+        min-height: 200px;
         width: 100%;
-        height: 35vh;
-        margin: 12vh auto 12vh;
 	}
 }
