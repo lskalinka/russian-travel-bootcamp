@@ -1,43 +1,44 @@
 .cover__background {
-    width: 100%;
-    background-image: url(../../../images/__background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    z-index: 0;
-    text-decoration: none;
-    min-height: 740px;
+  width: 100%;
+  background-image: url(../../../images/__background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+  text-decoration: none;
+  min-height: 740px;
 }
 
 .cover__background::after {
-    content: '';
-    opacity: 0.3;
-    background-color: #2A2C2F;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+  content: "";
+  opacity: 0.3;
+  background-color: #2a2c2f;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .cover__background:hover::after {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px){
-    .cover__background {
-        min-height: 640px;
-    }
+@media screen and (max-width: 1279px) {
+  .cover__background {
+    min-height: 640px;
+  }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .cover__background {
-        min-height: 480px;
-    }
+@media screen and (max-width: 1023px) {
+  .cover__background {
+    min-height: 480px;
+  }
 }
-@media screen and (min-width: 320px) and (max-width: 767px){
-    .cover__background {
-        min-height: 200px;
-    }
+@media screen and (max-width: 767px) {
+  .cover__background {
+    min-height: 200px;
+  }
 }
